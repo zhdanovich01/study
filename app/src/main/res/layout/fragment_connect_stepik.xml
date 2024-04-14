@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ConnectStepikFragment">
+
+    <ImageView
+        android:id="@+id/returnback"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:rotationY="-180"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/nameinmenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top|left"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/helveticaneuecyr_medium"
+        android:text="Привяжите Stepik"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/mail3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/helveticaneuecyr_medium"
+        android:text="К сожалению из-за ограничений в открытом API Stepik, логин возможен только по Client id и Client secret, эти данные вы можете узнать здесь: https://stepik.org/oauth2/applications/ . Client type: confidential, Authorization Grant Type: client-credentials"
+        android:textSize="11sp" />
+
+    <FrameLayout
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/backgroundbutton">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Привязать"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/background">
+
+        <EditText
+            android:id="@+id/clientid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:hint="Client Id"
+            android:textColorHint="#A0A9B4" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/background">
+
+        <EditText
+            android:id="@+id/clientsecret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:hint="Client Secret  "
+            android:textColorHint="#A0A9B4" />
+    </FrameLayout>
+</FrameLayout>

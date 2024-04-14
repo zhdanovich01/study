@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FavFragment">
+
+    <ImageView
+        android:id="@+id/returnback7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:rotationY="-180"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/name7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/helveticaneuecyr_bold"
+        android:text="Избранные курсы"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/listViewParks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp" />
+</FrameLayout>

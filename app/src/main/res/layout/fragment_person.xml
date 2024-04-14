@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PersonFragment">
+
+    <FrameLayout
+        android:id="@+id/connectnotif"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="240dp">
+
+
+        <TextView
+            android:id="@+id/notifoff"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Выключить уведомления"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageV34iew32132112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            app:tint="@color/purple_500" />
+
+
+        <TextView
+            android:id="@+id/notifon"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Включить уведомления"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/connectstepikbut"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="180dp">
+
+
+        <ImageView
+            android:id="@+id/imageView32132112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            app:tint="@color/purple_500" />
+
+
+        <TextView
+            android:id="@+id/connectstepik"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Привязать Stepik"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="120dp">
+
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            app:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/basictext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="Имя"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/changename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/helveticaneuecyr_bold"
+        android:text="Name and Surname"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+
+    <TextView
+        android:id="@+id/mail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/helveticaneuecyr_medium"
+        android:text="mail@yandex.ru"
+        android:textSize="15sp" />
+</FrameLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SubjectsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45dp">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/english" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Английский"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/geo" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="География"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/chem" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Химия"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45dp">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/bio" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Биология"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/tech" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Технология"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/economy" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Экономика"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/helveticaneuecyr_bold"
+        android:text="Предметы"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/returnback2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:rotationY="-180"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@color/purple_500" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="85dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45dp">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/math" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Математика"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/physics" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Физика"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center|top"
+                android:src="@drawable/art" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/helveticaneuecyr_medium"
+                android:text="Искусство"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

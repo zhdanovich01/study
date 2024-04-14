@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    tools:context=".fragments.ForumFragment">
+
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/helveticaneuecyr_bold"
+        android:text="Ваши вопросы"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="150dp" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/answer"
+        android:background="@drawable/question_card_user"
+        android:layout_width="wrap_content"
+        android:elevation="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/postButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/questionEditText"
+
+            android:background="@null"
+            android:src="@drawable/baseline_send_24" />
+
+        <EditText
+            android:id="@+id/questionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="45dp"
+            android:background="@null"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:hint="Ваш вопрос"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+

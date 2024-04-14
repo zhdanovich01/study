@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PMIFragment">
+
+    <ImageView
+        android:id="@+id/returnback6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:rotationY="-180"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@color/purple_500" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp">
+
+
+        <TextView
+            android:id="@+id/fav1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="В избранное"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/gotheme1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/basictext25434"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="Рейтинг: 5"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/namepmi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Программирование на Python Pro 2.0"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="165dp">
+
+
+        <TextView
+            android:id="@+id/fav2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="В избранное"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/basictext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="Рейтинг: 5"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/gotheme2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/namepmi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Подготовка к ЕГЭ по информатике"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="225dp">
+
+
+        <TextView
+            android:id="@+id/fav3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="В избранное"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/basictext6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="Рейтинг: 5"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/gotheme3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/namepmi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Криптография для 8-10 классов"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="285dp">
+
+
+        <TextView
+            android:id="@+id/fav4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="В избранное"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/basictext8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="Рейтинг: 5"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/gotheme4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/namepmi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Программирование Python. Курс Start"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="350dp">
+
+
+        <TextView
+            android:id="@+id/fav5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="В избранное"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/basictext10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/helveticaneuecyr_roman"
+            android:text="Рейтинг: 5"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/gotheme5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/namepmi5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:fontFamily="@font/helveticaneuecyr_medium"
+            android:text="Программирование на Python Pro 2.0"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/helveticaneuecyr_medium"
+        android:text="Прикладная математика и информатика"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</FrameLayout>

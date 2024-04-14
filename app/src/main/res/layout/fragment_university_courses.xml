@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UniversityCoursesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/ITMO"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+
+                <TextView
+                    android:id="@+id/connectstepik2"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="@font/helveticaneuecyr_medium"
+                    android:text="ИТМО"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/purple_500" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/HSE"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView32132112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/purple_500" />
+
+
+                <TextView
+                    android:id="@+id/connectstepik"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="@font/helveticaneuecyr_medium"
+                    android:text="ВШЭ"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/LETI"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/imag432432eView32132112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/purple_500" />
+
+
+                <TextView
+                    android:id="@+id/connec32121tstepik"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="@font/helveticaneuecyr_medium"
+                    android:text="ЛЭТИ"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/Mining"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/imag321312eView32132112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/purple_500" />
+
+
+                <TextView
+                    android:id="@+id/connec321312312tstepik"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="@font/helveticaneuecyr_medium"
+                    android:text="Горный"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/Polytech"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp">
+
+
+                <ImageView
+                    android:id="@+id/image312View32132112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center|right"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/baseline_arrow_forward_ios_24"
+                    app:tint="@color/purple_500" />
+
+
+                <TextView
+                    android:id="@+id/connect321312stepik"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="@font/helveticaneuecyr_medium"
+                    android:text="Политех"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/helveticaneuecyr_bold"
+        android:text="Университеты"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/returnback3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:rotationY="-180"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        app:tint="@color/purple_500" />
+
+</FrameLayout>
